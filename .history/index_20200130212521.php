@@ -1,0 +1,11 @@
+<?php
+get_header();
+?>
+
+<audio controls autoplay src="data:audio/mp3;base64,aHR0cDovLzE3MC44NC4xMzQuMzk6OTgzMC87">your browser it's not supoorted</audio>
+<br>
+<br>
+<i class="gg-abstract"></i>
+<video autoplay loop src="<?php echo get_template_directory_uri() . '/multimedia/Portada_ms.mp4' ?>"></video>
+
+<?php get_footer() ?>
